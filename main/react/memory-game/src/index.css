@@ -19,3 +19,13 @@ code {
   opacity: 1.2;
   border: 2px solid black;
 }
+
+body {
+  background: url('https://images5.alphacoders.com/665/665368.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  height: 18rem;
+}
