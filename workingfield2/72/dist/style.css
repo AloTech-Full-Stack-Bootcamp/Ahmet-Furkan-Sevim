@@ -1,0 +1,112 @@
+body {
+  background: url('./img/Home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.home1 {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+  flex-direction: column;
+  margin-left: 25%;
+  width: 40rem;
+  opacity: 0.9;
+  border-radius: 0.5rem;
+}
+
+.home2 {
+  color: white;
+  opacity: 0.9;
+}
+/*menu card css  */
+
+.menu {
+  width: 75%;
+  margin-left: 20%;
+}
+
+.card {
+  width: 65%;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.85;
+  height: 22rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15rem;
+}
+
+.card:hover {
+  opacity: 1;
+  border: black 3px solid;
+}
+.card2 {
+  height: auto;
+}
+
+.contact {
+  width: 50%;
+  margin-left: 35%;
+}
+
+.contact .card {
+  margin-top: 10rem;
+  height: 15rem;
+}
+
+.fluid {
+  transition: ease-in-out 1s;
+}

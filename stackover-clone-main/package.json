@@ -1,0 +1,27 @@
+{
+  "name": "stackover-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkansevm/stackover-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erkansevm/stackover-clone/issues"
+  },
+  "homepage": "https://github.com/erkansevm/stackover-clone#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

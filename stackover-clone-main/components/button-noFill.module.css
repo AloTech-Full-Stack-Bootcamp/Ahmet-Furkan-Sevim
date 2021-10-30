@@ -1,0 +1,9 @@
+.navButton{
+  width: 98px;
+  height: 40px;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  color: var(--pm-green);
+  font-weight: bold;
+ }
